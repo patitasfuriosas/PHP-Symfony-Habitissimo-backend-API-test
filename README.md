@@ -6,3 +6,6 @@ https://symfony.com/doc/current/doctrine.html
 
 crear la base de datos tras configurar la conexión en .env:
 $ php bin/console doctrine:database:create
+
+creamos el entity usuario:
+$ D:/programas/wamp/bin/php/php7.4.7/php.exe bin/console make:entity
